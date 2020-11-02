@@ -1,5 +1,35 @@
 .App {
-  text-align: center;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App .Header {
+  display: flex;
+  border: 1px solid #bebebe;
+  border-bottom: none;
+  padding: 10px 10px;
+}
+
+.App .Header input {
+  font-family: 'Helvetica Neue', 
+  Helvetica,  
+  Arial,
+  sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #4d4d4d;
+  width: 100%;
+  margin-left: 10px;
+  border: none;
+}
+
+.App .Header input:focus {
+  outline: none;
+}
+
+.App .Header input::placeholder {
+  opacity: 0.5;
 }
 
 .App-logo {
@@ -27,6 +57,8 @@
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {

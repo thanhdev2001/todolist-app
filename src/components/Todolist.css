@@ -1,0 +1,22 @@
+.Todolist {
+    font-family: 'Helvetica Neue', 
+    Helvetica,  
+    Arial,
+    sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #4d4d4d;
+    border: 1px solid #bebebe;
+    padding: 10px;
+    display: flex;
+}
+
+.Todolist-complete > p {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+p {
+    margin: 0 0 0 15px;
+    padding-top: 5px;
+}
